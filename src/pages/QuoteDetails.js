@@ -42,7 +42,7 @@ const QuoteDetails = () => {
       <HighlightedQuote text={quote.text} author={quote.author} />
       {location.pathname === `/quotes/${param.quotesId}` && (
         <div className="centered">
-          <Link className="btn--flat" to={`/quotes/${param.quotesId}/comments`}>
+          <Link className="btn--flat" to={`comments`}>
             Load Comments
           </Link>
         </div>
